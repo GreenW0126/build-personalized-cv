@@ -1,0 +1,85 @@
+name: 行为反馈
+description: 报告 Skill 在真实 CV 共创流程中的可复现行为偏差
+title: "[Behavior] "
+labels:
+  - behavior-feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提供真实使用反馈。请只提交完成脱敏的最小必要信息，不要上传完整 CV 或个人资料。
+
+  - type: input
+    id: version
+    attributes:
+      label: Skill 版本
+      description: 可在 SKILL.md 的 metadata.version 中查看。
+      placeholder: 例如 0.3.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: invocation
+    attributes:
+      label: 调用方式
+      options:
+        - 自动触发
+        - 使用 $build-personalized-cv 手动调用
+        - 不确定
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 问题发生阶段
+      options:
+        - 求职语境
+        - 经历证据
+        - 能力积木
+        - 职业主线
+        - 人工市场校准
+        - 岗位类型架构
+        - 分段写作
+        - 人类终稿与受限校对
+        - 无法判断
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 已脱敏的最小情境
+      description: 请描述触发问题所需的最少上下文，可改写公司名、数字和个人信息。
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: 实际发生了什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期待发生什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 为什么这会影响使用体验
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已经删除或改写姓名、联系方式、内部数据及其他可识别信息。
+          required: true
+
