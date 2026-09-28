@@ -1,5 +1,7 @@
 # Build Personalized CV
 
+![Build Personalized CV：把零散经历变成可信、面向岗位的 CV](assets/readme-banner.png)
+
 ## 一个CV 共创 Skill。
 从原始简历、项目叙述、工作经历和岗位信号中，建立可追溯的证据、可复用的能力资产与受约束的公开表述，再把这些内容编译成面向具体求职方向的中文或英文 CV。
 
