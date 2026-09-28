@@ -9,6 +9,18 @@
 
 ![Build Personalized CV 工作流演示](demo/build-personalized-cv/media/cv-skill-demo.gif)
 
+## 从自然语言到 CV
+
+![从原始自然语言到可信、面向岗位的 CV](demo/build-personalized-cv/media/natural-language-to-cv.png)
+
+<p align="center">
+  <a href="demo/build-personalized-cv/fixtures/synthetic-case.md">查看完整案例</a>
+  ·
+  <a href="demo/build-personalized-cv/media/周岚_AI产品方向_CV预览.png">查看高清 CV 预览</a>
+</p>
+
+> 本案例完全虚构，不含真实用户信息。
+
 ## 为什么需要
 
 真正困难的通常不是“把句子写漂亮”，而是同时处理这些问题：
