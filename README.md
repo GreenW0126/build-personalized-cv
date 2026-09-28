@@ -5,6 +5,10 @@
 ## 一个CV 共创 Skill。
 从原始简历、项目叙述、工作经历和岗位信号中，建立可追溯的证据、可复用的能力资产与受约束的公开表述，再把这些内容编译成面向具体求职方向的中文或英文 CV。
 
+## Demo
+
+![Build Personalized CV 工作流演示](demo/build-personalized-cv/media/cv-skill-demo.gif)
+
 ## 为什么需要
 
 真正困难的通常不是“把句子写漂亮”，而是同时处理这些问题：
