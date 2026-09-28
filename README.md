@@ -142,16 +142,20 @@ flowchart LR
 
 ## Dashboard 协作
 
-Dashboard 是一等协作界面，从 canonical files 机械投影：
+Dashboard 把目标岗位、能力积木、市场反馈、证据缺口和当前 CV 汇总在同一协作界面。你可以在整个过程中看到内容如何被整理和转化，也可以直接修改候选 CV 文案；保存后的修改会先进入 Claim Audit，确认后再写入正式 CV。
 
-- 当前工作阶段与目标岗位族；
-- 市场与 JD 信号；
-- Capability Package 与证据链接；
-- 证据缺口和 claim boundaries；
-- 当前 CV 文案与接纳状态；
-- 当前任务的角色归属和待用户决策事项。
+| 全程看见协作节点 | 直接修改 CV 内容 |
+|---|---|
+| ![Dashboard 展示目标岗位、能力积木、市场反馈与证据缺口](demo/build-personalized-cv/media/dashboard-collaboration-nodes.png) | ![Dashboard 中可直接编辑候选 CV 文案](demo/build-personalized-cv/media/dashboard-editable-cv.png) |
+| 方向、证据、能力和市场信号始终可见。 | 项目经历、实习经历、简介、教育和技能均可编辑。 |
 
-Dashboard 中的修改会被转换为受控事件：事实纠正交给 Evidence Curator，能力边界交给 Capability Synthesizer，CV 文案进入 claim review，目标与取舍返回 Master。任何界面编辑都不会直接覆盖其他 canonical domain。
+<details>
+  <summary>查看完整 Dashboard 实例</summary>
+  <br>
+  <img src="demo/build-personalized-cv/media/dashboard-example-editable.jpg" alt="Build Personalized CV 可编辑协作 Dashboard 完整实例">
+</details>
+
+Dashboard 是 canonical files 的机械投影，而不是平行的事实来源。事实纠正交给 Evidence Curator，能力边界交给 Capability Synthesizer，CV 文案进入 claim review，目标与取舍返回 Master。
 
 ## 文件化记忆与最小上下文
 
