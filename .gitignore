@@ -1,3 +1,16 @@
 .DS_Store
 *.zip
 
+# Local CV workflow state and private working materials
+.cv-workflow-session/
+/cv-workspace/
+/cv-export/
+/cv-render/
+/exports/
+
+# Local documents and secrets must be reviewed before publication
+*.docx
+*.docm
+*.pdf
+.env
+.env.*
